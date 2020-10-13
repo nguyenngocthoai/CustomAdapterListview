@@ -45,8 +45,9 @@ public class FruitAdapter extends BaseAdapter {
         /**
          * System
          */
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        convertView = inflater.inflate(layout, null);
+//        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//        convertView = inflater.inflate(layout, null);
+        convertView = LayoutInflater.from(context).inflate(layout, parent, false);
         /**
          *mapping
          */

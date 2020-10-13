@@ -19,28 +19,26 @@ public class MainActivity extends AppCompatActivity {
 
         mapping();
 
-        fruitAdapter =new FruitAdapter(this,R.layout.listview_fruit,fruits);
+        fruitAdapter = new FruitAdapter(this, R.layout.listview_fruit, fruits);
         lvFruit.setAdapter(fruitAdapter);
     }
 
     private void mapping() {
-        lvFruit=findViewById(R.id.listviewfruit);
-        fruits=new ArrayList<>();
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
-        fruits.add(new Fruit("Dâu Tây","Dâu tây Đà lạt",R.drawable.dautay));
-        fruits.add(new Fruit("Xoài","Xoài nhà tui trồng",R.drawable.xoai));
+        lvFruit = findViewById(R.id.listviewfruit);
+        fruits = new ArrayList<>();
+        fruits.add(new Fruit("Ca nấu lẩu, nấu mì mini", "ShopDevang", R.drawable.ca_nau_lau));
+        fruits.add(new Fruit("1 KG GÀ KHÔ BƠ TỎI", "Shop LTD Food", R.drawable.ga_bo_toi));
+        fruits.add(new Fruit("Xe cần cẩu đa năng", "Shop Thế giới đồ chơi", R.drawable.xa_can_cau));
+        fruits.add(new Fruit("Đồ chơi dạng mô hình", "Shop Thế giới đồ chơi", R.drawable.do_choi_dang_mo_hinh));
+        fruits.add(new Fruit("Lãnh đạo đơn giản", "Shop Minh Long Book", R.drawable.lanh_dao_gian_don));
+        fruits.add(new Fruit("Hiểu lòng trẻ con", "Shop Minh Long Book", R.drawable.hieu_long_con_tre));
+        fruits.add(new Fruit("Donal Trump Thiên tài lãnh đạo", "Donal Trump", R.drawable.trump));
+        fruits.add(new Fruit("Ca nấu lẩu, nấu mì mini", "ShopDevang", R.drawable.ca_nau_lau));
+        fruits.add(new Fruit("1 KG GÀ KHÔ BƠ TỎI", "Shop LTD Food", R.drawable.ga_bo_toi));
+        fruits.add(new Fruit("Xe cần cẩu đa năng", "Shop Thế giới đồ chơi", R.drawable.xa_can_cau));
+        fruits.add(new Fruit("Đồ chơi dạng mô hình", "Shop Thế giới đồ chơi", R.drawable.do_choi_dang_mo_hinh));
+        fruits.add(new Fruit("Lãnh đạo đơn giản", "Shop Minh Long Book", R.drawable.lanh_dao_gian_don));
+        fruits.add(new Fruit("Hiểu lòng trẻ con", "Shop Minh Long Book", R.drawable.hieu_long_con_tre));
+        fruits.add(new Fruit("Donal Trump Thiên tài lãnh đạo", "Donal Trump", R.drawable.trump));
     }
 }
